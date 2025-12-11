@@ -60,9 +60,9 @@ const ArrowMarker = ({ position }) => {
 
 const Earth = () => {
     const [colorMap, normalMap, specularMap] = useTexture([
-        'planet/earth_daymap.jpg',
-        'planet/earth_normal.jpg',
-        'planet/earth_specular.jpg'
+        import.meta.env.BASE_URL + 'planet/earth_daymap.jpg',
+        import.meta.env.BASE_URL + 'planet/earth_normal.jpg',
+        import.meta.env.BASE_URL + 'planet/earth_specular.jpg'
     ]);
 
     // South Korea Coordinates
