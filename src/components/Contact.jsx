@@ -89,12 +89,22 @@ const Contact = () => {
                         />
                     </label>
 
-                    <button
-                        type='submit'
-                        className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary'
-                    >
-                        {loading ? "Sending..." : "Send"}
-                    </button>
+                    <div className="flex gap-4">
+                        <button
+                            type='submit'
+                            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary hover:bg-white transition-colors'
+                        >
+                            {loading ? "Sending..." : "Send"}
+                        </button>
+                        <a
+                            href='https://www.linkedin.com/in/dspshin/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='bg-[#0077b5] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary flex items-center gap-2 hover:bg-[#006097] transition-colors'
+                        >
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
                 </form>
             </motion.div>
 
