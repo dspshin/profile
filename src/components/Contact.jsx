@@ -92,7 +92,7 @@ const Contact = () => {
                     <div className="flex gap-4">
                         <button
                             type='submit'
-                            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary hover:bg-white transition-colors'
+                            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-white hover:text-black transition-colors'
                         >
                             {loading ? "Sending..." : "Send"}
                         </button>
