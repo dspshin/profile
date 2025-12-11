@@ -135,97 +135,81 @@ const education = [
 // Re-purposing 'projects' to showcase Books & Lectures as requested
 const projects = [
     {
-        name: "Adot.ai Search",
+        name: "웹으로 시작하는 모바일 게임",
         description:
-            "A comprehensive search platform interacting with multiple LLMs (Claude, GPT, Perplexity, etc.) to provide comparative answers. Features streaming responses via SSE.",
+            "지앤선 · 2017년 8월 31일. 웹 기술을 활용한 모바일 게임 개발 입문서.",
         tags: [
             {
-                name: "vue/nuxt3",
-                color: "green-text-gradient",
-            },
-            {
-                name: "typescript",
+                name: "book",
                 color: "blue-text-gradient",
             },
             {
-                name: "vite",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: import.meta.env.BASE_URL + "images/book_bot.jpg",
-        source_code_link: "https://adot.ai",
-    },
-    {
-        name: "Adot Note & App WebViews",
-        description:
-            "Real-time voice dictation and summarization service, plus various webview-based features (mobility, search, events) integrated into the Adot native app.",
-        tags: [
-            {
-                name: "vue",
+                name: "game-dev",
                 color: "green-text-gradient",
             },
-            {
-                name: "hybrid-app",
-                color: "orange-text-gradient",
-            },
         ],
-        image: import.meta.env.BASE_URL + "images/book_web.jpg",
-        source_code_link: "https://adot.ai",
+        image: import.meta.env.BASE_URL + "images/book_game.jpg",
+        source_code_link: "https://www.yes24.com/product/goods/44384394",
     },
     {
-        name: "ChatBot Platform & Tools",
+        name: "빠르게 활용하는 파이썬 3.6",
         description:
-            "Led the development of a chatbot platform, including a flow editor (DTS) and a debugger. Designed architecture for high traffic and stability.",
+            "위키북스 · 2017년 7월 18일. 실무에 바로 쓰는 파이썬 프로그래밍 가이드.",
         tags: [
             {
-                name: "angular",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "flask-socketio",
-                color: "green-text-gradient",
-            },
-            {
-                name: "platform-eng",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: import.meta.env.BASE_URL + "images/book_python.jpg",
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Legacy Mobile Platforms",
-        description:
-            "Extensive experience with early mobile platforms (Tizen/SLP, LiMO, WIPI) at Samsung Electronics. Developed middleware, apps, and embedded databases.",
-        tags: [
-            {
-                name: "c/c++",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "embedded",
-                color: "green-text-gradient",
-            },
-            {
-                name: "linux",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: import.meta.env.BASE_URL + "images/book_cpp.jpg",
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Technical Books",
-        description:
-            "Authored multiple programming books including 'Mobile Game with Web', 'Python 3.6 Programming', 'Mobile Web Development', and 'Lua Programming'.",
-        tags: [
-            {
-                name: "author",
+                name: "book",
                 color: "blue-text-gradient",
             },
             {
                 name: "python",
                 color: "green-text-gradient",
+            },
+        ],
+        image: import.meta.env.BASE_URL + "images/book_python.jpg",
+        source_code_link: "https://www.yes24.com/product/goods/43751272",
+    },
+    {
+        name: "쉽게 따라 하는 모바일 웹 개발",
+        description:
+            "위키북스 · 2015년 11월 17일. jQuery Mobile부터 Node.js까지 아우르는 풀스택 가이드.",
+        tags: [
+            {
+                name: "book",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mobile-web",
+                color: "green-text-gradient",
+            },
+        ],
+        image: import.meta.env.BASE_URL + "images/book_web.jpg",
+        source_code_link: "https://www.yes24.com/product/goods/23125262",
+    },
+    {
+        name: "SQLite3",
+        description:
+            "wikibooks · 2011년 5월 12일. 임베디드 데이터베이스 SQLite3 활용서.",
+        tags: [
+            {
+                name: "book",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "database",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: import.meta.env.BASE_URL + "images/book_sqlite.jpg",
+        source_code_link: "https://www.yes24.com/product/goods/5058647",
+    },
+    {
+        name: "예제로 배우는 프로그래밍 루아",
+        description:
+            "한빛미디어 · 2008년 10월 5일. 루아 스크립트 언어 입문서.",
+        tags: [
+            {
+                name: "book",
+                color: "blue-text-gradient",
             },
             {
                 name: "lua",
@@ -233,24 +217,41 @@ const projects = [
             },
         ],
         image: import.meta.env.BASE_URL + "images/book_lua.jpg",
-        source_code_link: "https://www.yes24.com/Product/Search?domain=ALL&query=%EC%8B%A0%ED%98%B8%EC%B2%A0",
+        source_code_link: "https://www.yes24.com/product/goods/3081202",
     },
     {
-        name: "Nugu Auto & Smart Home",
+        name: "IT CookBook C++ 기초",
         description:
-            "Developed webview interfaces for Volvo XC series (Nugu Auto) and smart home context-based infrastructure. Focused on UX optimization for devices.",
+            "한빛미디어 · 2008년 1월 20일. C++ 기초 학습을 위한 대학 교재.",
         tags: [
             {
-                name: "vue",
-                color: "green-text-gradient",
+                name: "book",
+                color: "blue-text-gradient",
             },
             {
-                name: "automotive",
-                color: "orange-text-gradient",
+                name: "cpp",
+                color: "pink-text-gradient",
             },
         ],
-        image: import.meta.env.BASE_URL + "images/book_sqlite.jpg",
-        source_code_link: "https://www.sktelecom.com",
+        image: import.meta.env.BASE_URL + "images/book_cpp.jpg",
+        source_code_link: "http://www.yes24.com/24/goods/2817935",
+    },
+    {
+        name: "게임봇 만들기",
+        description:
+            "정보문화사 · 2007년 5월 16일. Visual C++를 이용한 게임봇 제작 가이드.",
+        tags: [
+            {
+                name: "book",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "cpp",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: import.meta.env.BASE_URL + "images/book_bot.jpg",
+        source_code_link: "https://www.yes24.com/product/goods/2549646",
     },
 ];
 
